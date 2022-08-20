@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!-- //////////////////////////////////////////////////////////////// -->
+<!-- <script>//fibnnaco series
+   function fibnnaco(n) {
+      if (n == 0 || n == 1) { return n }
+      return fibnnaco(n - 1) + fibnnaco(n - 2)
+   }
+   // console.log(fibnnaco(3));
+
+</script> -->
+<!-- //////////////////////////////////////////////////////////////// -->
+<!-- <script>// recursion in array
+   function print_recursion(arr, i) {
+      if (i == arr.length) {
+         return;
+      }
+      // console.log(arr[i])
+      return print_recursion(arr, i + 1);
+   }
+
+   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+   let i = 0;
+   (print_recursion(arr, i));
+
+</script> -->
+<!-- //////////////////////////////////////////////////////////////// -->
+<script>//factorial(10!)
+   function factorial(n) {
+      if (n == 1 || n == 0) { return 1; }
+      return n * factorial(n - 1);
+   }
+   // let n = 7
+   console.log(factorial(n));
+</script>
+<!-- //print number from 5 to 1 using recursion; -->
+<!-- <script>
+   function print(n) {
+      if (n == 11) {
+         return;
+      }
+      console.log(n);
+      print(n +1);
+   }
+    var n = 1;
+      print(n);
+</script> -->
+
+<!-- moves of knight using recursion in javascript -->
+<script>
+   function runProgram(input) {
+      input = input.trim().split("\n");
+
+
+   }
+   if (process.env.USER === "") { runProgram(``); } else {
+      process.stdin.resume();
+      process.stdin.setEncoding("ascii"); let read = ""; process.stdin.on("data", function (input) {
+         read += input;
+      }); process.stdin.on("end", function () {
+         read = read.replace(/\n$/, ""); read = read.replace(/\n$/, ""); runProgram(read);
+      }); process.on("SIGINT", function () { read = read.replace(/\n$/, ""); runProgram(read); process.exit(0); });
+   }
+
+</script>
